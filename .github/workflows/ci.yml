@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-      - master
   pull_request:
     branches:
       - main
-      - master
 
 jobs:
   test:
@@ -34,3 +32,5 @@ jobs:
 
       - name: Check code style with PHP_CodeSniffer
         run: composer check-style
+      - name: Check PHP extensions
+        run: php -m
