@@ -1,7 +1,7 @@
 {
     "name": "holduix/recaptcha",
     "description": "Google reCAPTCHA integration for PHP (supports v2 and v3)",
-    "keywords": ["recaptcha", "captcha", "google", "v2", "v3", "security"],
+    "keywords": ["recaptcha", "captcha", "google", "v2", "v3", "security", "spam", "bot", "protection", "CodeIgniter"],
     "homepage": "https://github.com/holsonmp/recaptcha",
     "authors": [
         {
