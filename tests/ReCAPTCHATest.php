@@ -9,5 +9,6 @@ class ReCAPTCHATest extends TestCase
     {
         $recaptcha = new reCAPTCHA('site-key', 'secret-key');
         $this->assertInstanceOf(reCAPTCHA::class, $recaptcha);
+        return true;
     }
 }
