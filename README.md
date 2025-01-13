@@ -26,14 +26,17 @@ With Composer, add this line to the *require* section of your `composer.json` fi
 ```json
 "Holduix/recaptcha": "dev-master"
 ```
-or 
-```bash
-composer require holduix/recaptcha
 
 Then run the following command:
 
 ```bash
 composer update
+```
+
+or 
+
+```bash
+composer require holduix/recaptcha
 ```
 
 ---
